@@ -1,0 +1,70 @@
+MONS (suggestion lists)
+
+CLAWTATO
+Level:1
+Attack:1
+Defence:1
+Hitpoints:10
+Type: Earth/Floral
+Base Weapon:Claws
+Advances to: Fistato @ Lvl 14
+
+FISTATO
+Level:14
+Type: Earth/Floral
+Advances to: Mutato @ Lvl26
+
+MUTATO
+Level:26
+Type: Earth/Floral
+
+DOMEKITTY
+Level:1
+Attack:1
+Defence:1
+Hitpoints:10
+Type:PSI/Urban
+Advances to:Domefelix @ Lvl16
+
+DOMEFELIX
+Level: 16
+Type: PSI/Urban
+Advances to: Domethera @ level 32
+
+DOMETHERA
+Level: 32
+Type:PSI/Urban
+
+FRIDGEFISH
+Level: 1
+Attack:1
+Defence:1
+Hitpoints:10
+Type:Water
+Advance to: Frozentrout @ Lvl 15
+
+FROZENTROUT
+Level: 15
+Type: Water
+Advances to:Chillshark @ Lvl 30
+
+CHILLSHARK
+Level: 30
+Type: Water
+
+SNOCK
+Level: 1
+Attack:1
+Defence:1
+Hitpoints:10
+Type: Rock/Night
+Advances to: Serpentsyth @ Lvl 18
+
+SERPENTSYTH
+Level: 18
+Type: Rock/Night
+Advances to: SERPENDIAMOND @ Lvl 30
+
+SERPENDIAMOND
+Level: 30
+Type: Rock/Night
