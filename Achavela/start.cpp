@@ -62,10 +62,10 @@ bool save1 = false;
   }
   else
   {
-	cout << "It looks as though you have no saved games. A new one will be started for you automatically.\n";
+	cout << "\n\tIt looks as though you have no saved games. A new one will be started for you automatically.\n";
 	  }
   
-  if (nosaves = false || choice =="new"||"new game"||"n"||"N")
+  if (nosaves = true || choice =="new"||choice=="new game"||choice=="n"||choice=="N")
   {
 	  intro();
   }

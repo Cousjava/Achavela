@@ -1,4 +1,5 @@
 #include <iostream>
+//#include "intro.h"
 using namespace std;
 
 struct mons {
@@ -9,3 +10,7 @@ struct mons {
 	int defence;
 	int attack;
 };
+
+bool fight(mons plar, mons enemy){
+	return true;
+}

@@ -34,6 +34,8 @@
     <Compile Include="intro.cpp" />
     <Compile Include="main.cpp" />
     <Compile Include="start.cpp" />
+    <Compile Include="player.cpp" />
+    <Compile Include="battle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="start.h" />

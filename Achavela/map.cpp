@@ -1,10 +1,16 @@
 #include <iostream>
+//#include "intro.h"
+
 using namespace std;
 
-struct map {
+struct location{
 	int x;
 	int y;
-	string loc;
+};
+
+struct map {
+	location loc;
+	string locname;
 	short monlev;
 	short monchance;	
 };
