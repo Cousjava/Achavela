@@ -2,8 +2,9 @@
 #include "intro.h"
 using namespace std;
 
-extern player plays;
-bool fight(mons,mons);
+
+player play = new player()
+//bool fight(mons,mons);
 
 void intro()
 {
@@ -27,8 +28,8 @@ void intro()
 	<< "I have four here: a SERPENTSYTH, a DOMEFELIX, a CLAWTOATO and a FRIDGEFISH."
 	<< "Which one would you like?\n";
 	cin >> choice;
-	plays.pmons[0].name = choice;
-	mons enemy;
-	enemy.name = "tree";
+	plays.pmons[0] = new mons(choice);
+	mons enemy = new mons;
+//	enemy.name = "tree";
 	fight(plays.pmons[0], enemy);
 }
