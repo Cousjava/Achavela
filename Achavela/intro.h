@@ -7,7 +7,7 @@ using namespace std;
 }*/
 
 
-struct mons {
+class mons {
 	short level;
 	int hitpoints;
 	int maxhitpoints;
@@ -21,7 +21,7 @@ struct location{
 	int y;
 };
 
-struct player{
+class player{
 	int cash;
 	mons pmons[5];
 	location ploc;
